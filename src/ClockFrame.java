@@ -21,6 +21,8 @@ public class ClockFrame extends JFrame {
         timeFormat = new SimpleDateFormat("hh:mm:ss a");
 
         timeLabel = new JLabel();
+        timeLabel.setFont(new Font("Georgia", Font.PLAIN, 50));
+        timeLabel.setBackground(Color.LIGHT_GRAY);
 
 
 
